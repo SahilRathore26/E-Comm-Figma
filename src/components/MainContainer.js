@@ -1,4 +1,5 @@
 import FilterPanel from "./FilterPanel";
+import Pagination from "./Pagination";
 import ProductGrid from "./ProductGrid";
 import Topbanner from "./TopBannner";
 
@@ -8,6 +9,7 @@ const MainContainer = () => {
       <Topbanner />
       <FilterPanel />
       <ProductGrid />
+      <Pagination />
     </div>
   );
 };

@@ -10,7 +10,7 @@ const ProductCard = ({ product }) => {
       />
 
       {product.isHot && (
-        <div className="absolute top-0 left-0 w-[69.74px] h-[34.7px] bg-[#ff4858] flex items-center justify-center rounded-tr-[3px]">
+        <div className="absolute top-0 left-0 w-[69.74px] h-[34.7px] bg-[#ff4858] flex items-center justify-center rounded-[3px]">
           <h1 className="text-white font-proxima font-normal text-[18px] leading-[100%] tracking-[0%]">
             Hot
           </h1>
