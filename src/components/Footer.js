@@ -3,7 +3,7 @@ import bottom_logo from "../images/BOTTOM.svg";
 
 const Footer = () => {
   return (
-    <div className="absolute w-[1499px] h-[626.94px] left-[-1.6px] bg-[#BCDDFE] font-poppins">
+    <div className="absolute w-full h-[626.94px] left-[-1.6px] bg-[#BCDDFE] font-poppins">
       <div>
         <div>
           <div className="absolute flex items-center">
