@@ -3,8 +3,7 @@ import cart from "../images/Cart.svg";
 
 const Header = () => {
   return (
-    <div className="relative w-full h-[71px]"> {/* Relative parent, height = total header height */}
-      {/* Logo Section */}
+    <div className="relative w-full h-[71px]">
       <div className="absolute top-[13.27px] left-[27.4px] w-[182px] h-[44px] flex items-center">
         <div className="absolute top-[0px] left-[0px] bg-[#40BFFF] w-[51px] h-[44px] rounded-[16px] flex items-center justify-center">
           <img
@@ -17,8 +16,6 @@ const Header = () => {
           E-Comm
         </h1>
       </div>
-
-      {/* Navigation */}
       <div className="absolute flex justify-between w-[804px] h-[40px] top-[17.27px] left-[407.4px] font-poppins text-[20px] items-center leading-[100%]">
         <h1>HOME</h1>
         <h1>BAG</h1>
@@ -30,12 +27,10 @@ const Header = () => {
         </div>
       </div>
 
-      {/* Cart Icon */}
       <div className="absolute w-[22.45px] h-[18.7px] top-[29.61px] left-[1301.4px]">
         <img alt="cart" src={cart} />
       </div>
 
-      {/* Items */}
       <div className="absolute flex w-[123.86px] h-[35.15px] top-[26.27px] left-[1346.4px] text-center">
         <p className="w-[58.97px] h-[35.15px] font-poppins text-[20px] font-normal leading-[100%] text-[#262626]">
           Items
@@ -44,8 +39,6 @@ const Header = () => {
           $0.00
         </p>
       </div>
-
-      {/* Divider */}
       <div className="absolute w-[1499.39px] h-[4.53px] top-[66.75px] left-[0.4px] bg-[#FAFAFB]"></div>
     </div>
   );

@@ -1,6 +1,12 @@
+import { useDispatch, useSelector } from "react-redux";
+import { setColor } from "../utils/productsSlice";
+
 const Color = () => {
+  const dispatch = useDispatch();
+  const selectedColor = useSelector((store) => store.products.color);
+
   const colors = [
-    "#006cff",
+    "#40bfff",
     "#fc3e39",
     "#171717",
     "#fff600",
@@ -15,13 +21,21 @@ const Color = () => {
           COLOR
         </h1>
       </div>
-      <div className="absolute w-[292.53px] h-[30.49px] top-[78.56px] left-[29.64px] space-x-[21.9px]">
+      <div className="flex absolute w-[292.53px] h-[30.49px] top-[78.56px] left-[29.64px] space-x-[21.9px]">
         {colors.map((color, index) => (
-          <button
-            key={index}
-            className="w-[25.77px] h-[23.45px] rounded-full border-2"
-            style={{ background: color }}
-          ></button>
+          <div
+            className="w-[33.51px] h-[30.49px] flex items-center justify-center rounded-full"
+            style={{
+              border: selectedColor === color ? `3px solid ${color}` : "none",
+            }}
+          >
+            <button
+              key={index}
+              className="w-[20.62px] h-[18.76px] rounded-full"
+              style={{ background: color }}
+              onClick={() => dispatch(setColor(color))}
+            ></button>
+          </div>
         ))}
       </div>
     </div>

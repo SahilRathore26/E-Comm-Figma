@@ -9,6 +9,7 @@ const productsSlice = createSlice({
     activeCategory: null,
     currentPage: 1,
     productsPerPage: 6,
+    color: "#40bfff",
   },
   reducers : {
     setCategory: (state, action) => {
@@ -23,9 +24,12 @@ const productsSlice = createSlice({
     },
     setPage: (state, action) => {
       state.currentPage = action.payload;
+    },
+    setColor: (state, action) => {
+      state.color = action.payload;
     }
   }
 });
 
-export const { setCategory, setPage } = productsSlice.actions;
+export const { setCategory, setPage, setColor } = productsSlice.actions;
 export default productsSlice.reducer;
