@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+E-comm Project (SoftDef - Frontend Test)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- install create-react-app and name the project e-comm
 
-## Available Scripts
+- add Tailwind CSS configuration for styling
 
-In the project directory, you can run:
+- initialize git repository for the project and make initial commit
 
-### `npm start`
+- add React Router and create routing pages in Body.js
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- think of application logo and name and generate placeholder images using ChatGPT
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- create Header component with logo, navigation, and cart
 
-### `npm test`
+- create SideBar component with HotDeals, Prices, Colors, Brands filters
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- create TopBanner component with featured product and dynamic color
 
-### `npm run build`
+- create MainContainer to display product list in grid layout
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- add FilterPanel for sorting and controlling number of items displayed
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- create HotDeals, Brand, Color, Prices components
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- implement Redux store and productsSlice for products, filters, and selected color
 
-### `npm run eject`
+- implement onClick actions in filters to update Redux state
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- make TopBanner background color change dynamically based on selected color
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- add selectedColor gradient border in Color component for active selection
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- make app fully responsive for mobile, tablet, and desktop
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- save all changes in git repository after each major feature
