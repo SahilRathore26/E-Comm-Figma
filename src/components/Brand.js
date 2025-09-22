@@ -19,7 +19,7 @@ const Brand = () => {
     return allProducts.filter((p) => p.category === cat).length;
   };
   return (
-    <div className="absolute w-[347.94px] h-[303.15px] top-[976.69px] left-[22.02px] bg-[#F6F7F8]">
+    <div className="absolute w-[347.94px] h-[303.15px] top-[976.69px] left-[22.02px] bg-[#F6F7F8] rounded-[3px]">
       <div className="absolute h-[33.41px] top-[23.51px] left-[25.77px] flex items-center">
         <h1 className="font-poppins font-medium text-[20px] leading-[100%] tracking-[0]">
           BRAND

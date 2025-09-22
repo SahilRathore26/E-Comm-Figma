@@ -27,7 +27,7 @@ const HotDeals = () => {
     return allProducts.filter((p) => p.category === cat).length;
   };
   return (
-    <div className="absolute w-[349.23px] h-[548.57px] left-[27.17px] bg-[#F6F7F8]">
+    <div className="absolute w-[349.23px] h-[548.57px] left-[27.17px] bg-[#F6F7F8] rounded-[3px]">
       <div className="absolute w-[111.24px] h-[39.92px] top-[28.1px] left-[25.87px] flex items-center">
         <h1 className="font-poppins font-medium text-[20px] leading-[20px] tracking-normal">
           Hot Deals

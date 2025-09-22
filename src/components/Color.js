@@ -9,7 +9,7 @@ const Color = () => {
   ];
 
   return (
-    <div className="absolute w-[347.94px] h-[144.22px] top-[796.04px] left-[22.02px] bg-[#F6F7F8]">
+    <div className="absolute w-[347.94px] h-[144.22px] top-[796.04px] left-[22.02px] bg-[#F6F7F8] rounded-[3px]">
       <div className="absolute h-[31.66px] top-[22.27px] left-[25.77px] flex items-center">
         <h1 className="font-poppins font-medium text-[20px] leading-[100%] tracking-[0]">
           COLOR

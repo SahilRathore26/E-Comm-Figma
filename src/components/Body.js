@@ -5,7 +5,7 @@ import Footer from "./Footer";
 
 const Body = () => {
   return (
-    <div className="relative w-100%">
+    <div className="relative">
       <div className="absolute">
         <Header />
       </div>

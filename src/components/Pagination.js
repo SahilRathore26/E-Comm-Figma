@@ -16,7 +16,7 @@ const Pagination = () => {
   };
 
   return (
-    <div className="absolute w-[1070px] h-[68.94px] top-[1316px] left-[403.4px] bg-[#f7f7f9] flex justify-center items-center">
+    <div className="absolute w-[1070px] h-[68.94px] top-[1316px] left-[403.4px] bg-[#f7f7f9] flex justify-center items-center rounded-[3px]">
       <div className="flex">
         {pages.map((page) => (
           <button
